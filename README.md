@@ -1,14 +1,23 @@
-This repository contains simulation codes for the paper: **Adaptive Quantization Resolution and Power Control for Federated Learning over Cell-free Networks**. Check out the [here](https://arxiv.org/abs/2412.10878) for more details.
+## 📌 About This Repository  
 
-# 📡 Federated Learning over Cell-free massive MIMO Networks: Adaptive Quantization & Power Control  
+This repository contains simulation codes for the paper:  
+### **📝 Adaptive Quantization Resolution and Power Control for Federated Learning over Cell-free Networks**  
+
+👨‍💻 **Authors**: *Afsaneh Mahmoudi, Emil Björnson*  
+📅 **Presented at**: *2024 IEEE Global Communications Workshop*  
+
+📄 **Read the Paper**: 👉 [Currently Available on arXiv](https://arxiv.org/abs/2412.10878)  
+
+
+
 
 ## 📖 Description  
 This repository contains the implementation of our research on optimizing Federated Learning (FL) over **Cell-Free massive MIMO (CFmMIMO) networks**.  
 We propose a **co-optimized physical layer and FL framework** that mitigates the straggler effect through:  
 - **Adaptive Mixed-Resolution Quantization** – Prioritizing essential gradient updates with higher precision.  
-- **Dynamic Uplink Power Control** – Managing user rates for efficient communication.  
+- **Dynamic Uplink Power Control** – Managing user rates for efficient communication and mitigating the straggler effect.  
 
-📄 **[Paper](https://arxiv.org/abs/2412.10878)**  
+
 
 ## 🚀 Key Contributions  
 ✔️ Reduces **communication overhead by 93%** while maintaining FL accuracy.  
